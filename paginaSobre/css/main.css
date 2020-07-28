@@ -67,33 +67,41 @@ list-style: none;
    text-transform: uppercase;
 
 }
-.menu ul li{
-display: inline-block;
-color: black;
-margin-left: 13px;
-height: 38px;
-}
-.menu ul li:hover {
-border-bottom: 1px solid #00bac6;
-}
-.menu ul li a:hover {
-color: #00bac6;
-        
+.header-2{
+    background-color: #fbe3d4;
+    width: 97.5%;
+    margin-top: 20px;
+    height: 40px;
+    padding: 15px;
 }
 .menu ul li a{
- color: black;
-text-decoration: none;
-font-size: 15px;
-text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    }
+.menu ul li:hover{
+    background-color:#7f2d2f;
 }
-.menu{
-    width: 70%;
+.menu ul{
+    padding: 0;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul li{
+    display: inline-block;
     float: left;
+    width: 100px;
 }
 .busca{
     text-align: center;
     width: 30%;
     float: right;
+    margin-top: -20px;
 }
 .busca input {
     background-image: url('../img/logo_lupa.png');
