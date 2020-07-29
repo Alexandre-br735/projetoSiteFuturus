@@ -54,18 +54,72 @@ list-style: none;
     height: 40px;
     float: right;
     margin-top: none;
-    color: black;
+    color:#fbe3d4;
    text-decoration: none;
    font-size: 30px;
    text-transform: uppercase;
+   position: relative;
+   margin-top: 30;
+   right: 15;
    }
+   .textoVisao{
+    width: 70%;
+    margin-left: 400px;
+    height: 40px;
+    float: right;
+    margin-top: none;
+    color:#fbe3d4;
+   text-decoration: none;
+   font-size: 30px;
+   text-transform: uppercase;
+   position: relative;
+   margin-top: 35;
+   right: 7;
+   }   
+.textoValores{
+    width: 70%;
+    margin-left: 400px;
+    height: 40px;
+    float: right;
+    margin-top: none;
+    color:#fbe3d4;
+   text-decoration: none;
+   font-size: 30px;
+   text-transform: uppercase;
+   position: relative;
+   margin-top: 35;
+   right: 30;
+}
 .textoSobreMissao{
     color: black;
     margin-left: 6px;
     float: left;
    font-size: 20px;
    text-transform: uppercase;
-
+   margin-top: 150px;
+   background: white;
+   border: 3px solid black;
+}
+.textoSobreVisao{
+    color: black;
+    margin-left: 6px;
+    float: left;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-top: 150px;
+   background: white;
+   border: 3px solid black;
+}
+.textoSobreValores{
+    color: black;
+    margin-left: 6px;
+    float: left;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-top: 170px;
+   background: white;
+   border: 3px solid black;
+}  
 }
 .header-2{
     background-color: #fbe3d4;
@@ -117,4 +171,41 @@ list-style: none;
     width: 100%;
     float: left;
     position: relative;
+}
+
+.elipsemissao{
+    width: 200px;
+        height: 100;
+        border-radius: 50%;
+        background-color:#7f2d2f;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        margin-top: 105px;
+        border: 5px solid #fbe3d4;
+ }
+.elipsevisao{
+        width: 200px;
+            height: 100;
+            border-radius: 50%;
+            background-color:#7f2d2f;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            margin-top: 310px;
+            border: 5px solid #fbe3d4;
+}
+.elipsevalores{
+    width: 200px;
+            height: 100;
+            border-radius: 50%;
+            background-color:#7f2d2f;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            margin-top: 530px;
+            border: 5px solid #fbe3d4;
 }
