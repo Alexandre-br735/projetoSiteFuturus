@@ -115,6 +115,8 @@ button.slick-next {
 
 .slider-principal {
     width: 100%;
+    position: relative;
+    margin-top: 70;
 }
 
 
