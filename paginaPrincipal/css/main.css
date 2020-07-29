@@ -51,7 +51,8 @@ padding: 20px;
     color: black;
     }
 .menu ul li:hover{
-    background-color:#7f2d2f;
+    background-color:#fbe3d4;
+    
 }
 .menu ul{
     padding: 0;
@@ -65,8 +66,9 @@ padding: 20px;
 .menu ul li{
     display: inline-block;
     float: left;
-    width: 100px;
+    width:100px;
 }
+
 
 .busca{
     text-align: center;
