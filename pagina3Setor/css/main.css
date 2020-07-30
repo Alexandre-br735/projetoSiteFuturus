@@ -117,7 +117,7 @@ button.slick-next {
 .slider-principal {
     width: 100%;
     position: relative;
-    margin-top: 70;
+
 }
 
 
@@ -159,5 +159,10 @@ li.slick-active button{
 .slick-dots li{
     display: inline-block;
     padding-left: 10px;
+}
+.menu ul ul li {
+    height: 0px;
+    border: 1px solid #7f2d2f;
+    padding: 30px;
 }
 

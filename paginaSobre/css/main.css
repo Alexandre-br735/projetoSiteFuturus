@@ -209,3 +209,8 @@ list-style: none;
             margin-top: 530px;
             border: 5px solid #fbe3d4;
 }
+.menu ul ul li {
+    height: 0px;
+    border: 1px solid #7f2d2f;
+    padding: 30px;
+}
