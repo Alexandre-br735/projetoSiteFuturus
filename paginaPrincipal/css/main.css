@@ -119,7 +119,7 @@ button.slick-next {
 
 .slider-principal {
     width: 100%;
-    position: relative;
+    position: fixed;
 }
 ul.slick-dots li.slick-active {
     background-color: transparent;
