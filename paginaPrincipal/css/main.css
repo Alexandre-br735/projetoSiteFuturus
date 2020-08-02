@@ -20,7 +20,7 @@ position: relative;
 .logo {
 float: left;
  padding:0px;
- width:70%;
+ 
 }
 .logo li{
     display: inline-block;
@@ -33,10 +33,30 @@ float: right;
 list-style: none;
 }
 .redes-sociais{
-width: 25%;
-float: left;
-padding: 20px;
+float: right;
+margin-top: 35px;
+
 }
+.balao_dicas ul li{
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    right: 0px;
+}
+.texto_dicas ul li{
+margin-top: -65px;
+text-align: center;
+font-size:18px;
+right: 30px;
+text-align: center;
+}
+.texto_dicas a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 .header-2{
     background-color: #fbe3d4;
     width: 97.8%;
