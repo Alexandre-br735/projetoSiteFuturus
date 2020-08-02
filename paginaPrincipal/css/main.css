@@ -39,7 +39,7 @@ padding: 20px;
 }
 .header-2{
     background-color: #fbe3d4;
-    width: 97.5%;
+    width: 100%;
     margin-top: 0px;
     height: 40px;
     padding: 15px;
@@ -119,7 +119,7 @@ button.slick-next {
 
 .slider-principal {
     width: 100%;
-    position: fixed;
+    position: rela;
 }
 ul.slick-dots li.slick-active {
     background-color: transparent;
@@ -162,5 +162,18 @@ li.slick-active button{
     height: 2px;
     border: 1px solid #7f2d2f;
     padding: 27px;
+}
+.rodape{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+}
+.header-3{
+    background-color: #fbe3d4;
+    width: 100%;
+    margin: 0 auto;
+    height: 10px;
+
+     
 }
 

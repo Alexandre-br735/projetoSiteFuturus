@@ -38,7 +38,7 @@ list-style: none;
 }
 .header-2{
     background-color: #fbe3d4;
-    width: 97.5%;
+    width: 100%;
     margin: 0 auto;
     height: 40px;
     padding: 15px;
@@ -105,4 +105,17 @@ list-style: none;
     height: 0px;
     border: 1px solid #7f2d2f;
     padding: 30px;
+}
+.rodape{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    margin-top: 4000;
+}
+.header-3{
+    background-color: #fbe3d4;
+    width: 100%;
+    margin: 0 auto;
+    height: 10px;
+     
 }
