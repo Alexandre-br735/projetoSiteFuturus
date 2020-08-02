@@ -65,14 +65,14 @@ padding: 20px;
 .menu ul li{
     display: inline-block;
     float: left;
-    width: 100px;
+    width: 120px;
 }
 
 .busca{
     text-align: center;
     width: 30%;
     float: right;
-    margin-top: -20px;  
+    margin-top: -30px;  
 }
 .busca input {
     background-image: url('../img/logo_lupa.png');

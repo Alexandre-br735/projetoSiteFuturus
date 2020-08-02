@@ -40,7 +40,7 @@ padding: 20px;
 .header-2{
     background-color: #fbe3d4;
     width: 97.5%;
-    margin-top: 20px;
+    margin-top: 0px;
     height: 40px;
     padding: 15px;
 }
@@ -66,16 +66,17 @@ padding: 20px;
 .menu ul li{
     display: inline-block;
     float: left;
-    width:150px;
+    width:120px;
     ;
 }
+
 
 
 .busca{
     text-align: center;
     width: 30%;
     float: right;
-    margin-top: -20px;  
+    margin-top: -30px;  
 }
 .busca input {
     background-image: url('../img/logo_lupa.png');
