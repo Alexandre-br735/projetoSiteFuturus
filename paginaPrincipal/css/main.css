@@ -55,8 +55,6 @@ text-align: center;
     color: white;
 }
 
-
-
 .header-2{
     background-color: #fbe3d4;
     width: 97.8%;
@@ -192,8 +190,8 @@ li.slick-active button{
     background-color: #fbe3d4;
     width: 100%;
     margin: 0 auto;
-    height: 10px;
-
-     
+    height: 10px;    
 }
-
+.content texto-destaque h1{
+    color: #7f2d2f;
+}
