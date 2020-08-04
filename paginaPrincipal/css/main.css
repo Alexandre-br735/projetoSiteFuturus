@@ -32,9 +32,9 @@ display: inline-block;
 float: right;
 list-style: none;
 }
-.redes-sociais{
-float: right;
-margin-top: 35px;
+
+.redes-sociais ul{
+margin-right: 650px;
 
 }
 .balao_dicas ul li{
@@ -42,6 +42,7 @@ margin-top: 35px;
     position: absolute;
     margin-top: 15px;
     right: 0px;
+    
 }
 .texto_dicas ul li{
 margin-top: -65px;
@@ -88,8 +89,6 @@ text-align: center;
     ;
 }
 
-
-
 .busca{
     text-align: center;
     width: 30%;
@@ -109,6 +108,7 @@ text-align: center;
     width: 100%;
     float: left;
     position: relative;
+    
 }
 button.slick-prev {
     font-size: 0px;
@@ -137,7 +137,7 @@ button.slick-next {
 
 .slider-principal {
     width: 100%;
-    position: rela;
+    position: relative;
 }
 ul.slick-dots li.slick-active {
     background-color: transparent;
@@ -184,14 +184,39 @@ li.slick-active button{
 .rodape{
     width: 100%;
     background-color: black;
-    height: 110px;
+    height: 35%;
 }
-.header-3{
-    background-color: #fbe3d4;
-    width: 100%;
-    margin: 0 auto;
-    height: 10px;    
+
+.info_rodape ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;    
 }
-.content texto-destaque h1{
-    color: #7f2d2f;
+.info_rodape ul li{
+    margin-top: 20px;
+    margin-left: 70px;
+    list-style: none;
+    text-decoration: none;  
 }
+.info_rodape ul li a{
+    font-size: 20px;
+}
+.info_rodape ul{
+    width: 250px;
+    margin-top: -60px;
+    margin-left: 500px;
+   
+}
+.info_rodape li{
+    text-decoration: none;
+}
+.info_rodape{
+   width: 20px;
+}
+
+.parceiros-2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 200px;
+}
+

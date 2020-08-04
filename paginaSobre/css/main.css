@@ -214,12 +214,39 @@ list-style: none;
 .rodape{
     width: 100%;
     background-color: black;
-    height: 110px;
-    margin-top: 4000;
+    height: 250px;
+    margin-top: 2000;
 }
-.header-3{
-    background-color: #fbe3d4;
-    width: 100%;
-    margin: 0 auto;
-    height: 10px;
+
+.info_rodape ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;    
+}
+.info_rodape ul li{
+    margin-top: 20px;
+    margin-left: 70px;
+    list-style: none;
+    text-decoration: none;  
+}
+.info_rodape ul li a{
+    font-size: 20px;
+}
+.info_rodape ul{
+    width: 250px;
+    margin-top: -60px;
+    margin-left: 500px;
+   
+}
+.info_rodape li{
+    text-decoration: none;
+}
+.info_rodape{
+   width: 20px;
+}
+
+.parceiros-2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 200px;
 }
