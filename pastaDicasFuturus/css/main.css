@@ -107,6 +107,7 @@ list-style: none;
     border: 1px solid #7f2d2f;
     padding: 30px;
 }
+
 .rodape{
     width: 100%;
     background-color: black;
@@ -148,7 +149,7 @@ list-style: none;
 }
 .texto-destaque {
     text-align: center;
-    margin-top: 75px;
+    margin-top: 160px;
 }
 .texto-destaque h1{
     font-size: 90px;
@@ -157,5 +158,33 @@ list-style: none;
 color: #7f2d2f;
 }
 .texto-destaque p {
-    font-size: 20px;
+    font-size: 35px;
+}
+.dicas_titulos ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+.dicas_titulos ul{
+list-style: none;
+}
+.dicas_titulos ul li{
+    font-size: 25;
+}
+.dicas_titulos ul li a {
+  float: left;
+  margin-left: 20px;
+  padding-left: 50;
+}
+.dicas_titulos ul ul li{
+    margin-left: 10;
+}
+.subdicas ul li{
+    margin-left: 40;
+}
+.subdicas-2 ul li{
+    margin-left: 40;
+}
+..subdicas-3 ul li{
+    margin-left: 40;
 }
