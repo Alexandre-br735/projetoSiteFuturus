@@ -96,6 +96,15 @@
 
         .menu ul {
             padding: 0;
+            position: relative;
+            margin-top: 0;
+
+        }
+
+        .menu {
+            position: absolute;
+            margin-top: -40;
+            margin-left: 20;
         }
 
         .menu ul ul {
@@ -109,15 +118,17 @@
         .menu ul li {
             display: inline-block;
             float: left;
-            width: 120px;
+            width: 170px;
             ;
         }
 
         .busca {
             text-align: center;
-            width: 30%;
+
             float: right;
-            margin-top: -30px;
+            margin-top: 130px;
+            margin-right: 182px;
+
         }
 
         .busca input {
@@ -125,9 +136,11 @@
             background-repeat: no-repeat;
             background-position: 96%;
             height: 36px;
-            margin-top: 10px;
+            margin-top: -465px;
             padding: 12px;
             width: 190px;
+            position: absolute;
+
         }
 
         .col-100 {
@@ -209,16 +222,13 @@
             padding-left: 10px;
         }
 
-        .menu ul ul li {
-            height: 2px;
-            border: 1px solid #7f2d2f;
-            padding: 27px;
-        }
+
 
         .rodape {
             width: 100%;
             background-color: black;
             height: 35%;
+            margin-top: 217;
         }
 
         .info_rodape ul li a {
@@ -297,74 +307,73 @@
         </main>
     </header>
     <main class="col-100 menu-urls">
+        <div class="col-100">
+            <div class="slider-principal">
+                <img src="../projetoSiteFuturus/banner_projeto.png" />
+                <img src="../projetoSiteFuturus/banner_uerj.png" />
+                <img src="../projetoSiteFuturus/banner_uerj.png" />
+            </div>
+        </div>
         <div class="header-2">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="../projetoSiteFuturus/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="../projetoSiteFuturus/index_sobre.html">Sobre
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Projetos
-                            <ul>
-                                <li>
-                                    <a href="">Projetos em andamento;</a>
-                                </li>
-                                <li>
-                                    <a href="">Projetos concluídos;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Palestras
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
-                                        palestras;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
-                                        concluídas;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="">Parceiros</a>
-                    </li>
-                </ul>
-            </nav>
             <Div class="busca">
                 <input placeholder="digite sua busca:" type="text" />
-            </Div>
+            </div>
         </div>
-    </main>
-    <div class="col-100">
-        <div class="slider-principal">
-            <img src="../projetoSiteFuturus/banner_projeto.png" />
-            <img src="../projetoSiteFuturus/banner_uerj.png" />
-            <img src="../projetoSiteFuturus/banner_uerj.png" />
-        </div>
-    </div>
-    <div class="col-100">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../projetoSiteFuturus/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../projetoSiteFuturus/index_sobre.html">Sobre
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Projetos
+                        <ul>
+                            <li>
+                                <a href="">Projetos em andamento;</a>
+                            </li>
+                            <li>
+                                <a href="">Projetos concluídos;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Palestras
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
+                                    palestras;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
+                                    concluídas;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Podcast</a>
+                </li>
+                <li>
+                    <a href="">Parceiros</a>
+                </li>
+            </ul>
+        </nav>
+
         <div class="rodape">
             <div class="parceiros-2">
                 <ul>
@@ -411,37 +420,38 @@
                     </li>
                 </ul>
             </div>
-            <div class="redes-sociais">
-                <ul>
-                    <li>
-                        <a href="https://instagram.com/futurus.uerj?igshid=en91w123k2ym">
-                            <img src="../projetoSiteFuturus/logo_insta.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/futurusuerj2020">
-                            <img src="../projetoSiteFuturus/logo_face.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/futurus-uerj-5236891aa">
-                            <img src="../projetoSiteFuturus/logo_linkedin.png" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCLvdW12w7Mw7Q7iyZL720xQ">
-                            <img src="../projetoSiteFuturus/logo_youtube.png" />
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script type="text/javascript" src="../projetoSiteFuturus/main.js"></script>
+    </main>
+    <div class="redes-sociais">
+        <ul>
+            <li>
+                <a href="https://instagram.com/futurus.uerj?igshid=en91w123k2ym">
+                    <img src="../projetoSiteFuturus/logo_insta.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/futurusuerj2020">
+                    <img src="../projetoSiteFuturus/logo_face.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/futurus-uerj-5236891aa">
+                    <img src="../projetoSiteFuturus/logo_linkedin.png" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCLvdW12w7Mw7Q7iyZL720xQ">
+                    <img src="../projetoSiteFuturus/logo_youtube.png" />
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../projetoSiteFuturus/main.js"></script>
 
 </body>
 
