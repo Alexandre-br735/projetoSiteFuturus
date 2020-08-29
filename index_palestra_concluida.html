@@ -1,9 +1,11 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="../projetoSiteFuturus/main.js">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <title>Primeiro Projeto</title>
-    <style typr="text/css">
+
+    <style type="text/css">
         body {
             width: 100%;
             height: 00%;
@@ -53,159 +55,10 @@
         .header-2 {
             background-color: #fbe3d4;
             width: 97.8%;
-            margin: 0 auto;
+            margin-top: 0px;
             height: 40px;
             padding: 15px;
-        }
-
-        .subtopicos {
-            width: 70%;
-            color: black;
-            margin-left: 13px;
-            height: 38px;
-            float: left;
-
-        }
-
-        .subtopicos ul li {
-            margin-top: 50px;
-        }
-
-        .subtopicos ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos ul li li a {
-            font-size: 15px;
-        }
-
-        .subtopicos ul ul {
-            display: none;
-        }
-
-        .subtopicos ul li:hover>ul {
-            display: block;
-        }
-
-        .subtopicos ul ul li {
-            margin-left: 370px;
-        }
-
-        .subtopicos_1 ul li {
-            margin-top: 400px;
-        }
-
-        .subtopicos_1 {
-            width: 50%;
-            color: black;
-            float: right;
-            height: 38px;
-            margin-left: 5px;
-        }
-
-        .subtopicos_1 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos_2 ul li {
-            margin-top: 750px;
-        }
-
-        .subtopicos_2 {
-            width: 70%;
-            color: black;
-            margin-left: 13px;
-            height: 38px;
-            float: left;
-        }
-
-        .subtopicos_2 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos_3 ul li {
-            margin-top: 1100px;
-        }
-
-        .subtopicos_3 {
-            width: 50%;
-            color: black;
-            margin-right: 5px;
-            height: 38px;
-            float: right;
-        }
-
-        .subtopicos_3 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos_4 ul li {
-            margin-top: 1450px;
-        }
-
-        .subtopicos_4 {
-            width: 70%;
-            color: black;
-            margin-left: 13px;
-            height: 38px;
-            float: left;
-        }
-
-        .subtopicos_4 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos_5 ul li {
-            margin-top: 1800px;
-        }
-
-        .subtopicos_5 {
-            width: 50%;
-            color: black;
-            margin-right: 5px;
-            height: 38px;
-            float: right;
-        }
-
-        .subtopicos_5 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-        }
-
-        .subtopicos_6 ul li {
-            margin-top: 2150px;
-        }
-
-        .subtopicos_6 {
-            width: 70%;
-            color: black;
-            margin-left: 13px;
-            height: 38px;
-            float: left;
-        }
-
-        .subtopicos_6 ul li a {
-            color: black;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
+            position: relative;
         }
 
         .menu ul li a {
@@ -217,15 +70,24 @@
 
         .menu ul li:hover {
             background-color: #fbe3d4;
+
         }
 
         .menu ul {
             padding: 0;
+            position: relative;
+            margin-top: 0;
+
+        }
+
+        .menu {
+            position: absolute;
+            margin-top: -40;
+            margin-left: 20;
         }
 
         .menu ul ul {
             display: none;
-
         }
 
         .menu ul li:hover>ul {
@@ -235,15 +97,17 @@
         .menu ul li {
             display: inline-block;
             float: left;
-            width: 120px;
-            text-align: center;
+            width: 170px;
+            ;
         }
 
         .busca {
             text-align: center;
-            width: 30%;
+
             float: right;
-            margin-top: -30px;
+            margin-top: -575px;
+            margin-right: 182px;
+
         }
 
         .busca input {
@@ -251,9 +115,10 @@
             background-repeat: no-repeat;
             background-position: 96%;
             height: 36px;
-            margin-top: 10px;
+            margin-top: -465px;
             padding: 12px;
             width: 190px;
+            position: absolute;
 
         }
 
@@ -263,11 +128,6 @@
             position: relative;
         }
 
-        .menu ul ul li {
-            height: 0px;
-            border: 1px solid #7f2d2f;
-            padding: 30px;
-        }
 
         .rodape {
             width: 100%;
@@ -312,6 +172,99 @@
             display: inline-block;
             list-style: none;
             margin-left: 200px;
+        }
+
+        button.slick-prev {
+            font-size: 0px;
+            border: none;
+            width: 30px;
+            height: 21px;
+            z-index: 9;
+            background-color: transparent;
+            background-image: url('../projetoSiteFuturus/mover_esquerda.png');
+            top: 50%;
+            left: 4%;
+            position: absolute;
+        }
+
+        button.slick-next {
+            font-size: 0px;
+            border: none;
+            width: 30px;
+            height: 21px;
+            z-index: 9;
+            background-color: transparent;
+            background-image: url('../projetoSiteFuturus/mover_direita.png');
+            top: 50%;
+            right: 4%;
+            position: absolute;
+        }
+
+
+        ul.slick-dots li.slick-active {
+            background-color: transparent;
+        }
+
+        .slick-list {
+            width: 100% !important;
+        }
+
+        .slick-initialized {
+            overflow: hidden;
+        }
+
+        .slick-dots li button {
+            font-size: 0px;
+            border: 2px solid #ffffff;
+            width: 26px;
+            height: 26px;
+            background: transparent;
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+
+        .slick-dots {
+            margin: 0 auto;
+            width: 50%;
+            position: absolute;
+            left: 45%;
+            top: 90%;
+            m
+        }
+
+        li.slick-active button {
+            background: #7f2d2f;
+
+        }
+
+        .slick-dots li {
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+        .slider-principal {
+            width: 100%;
+            position: relative;
+        }
+
+        .col-100 h1 {
+            margin-top: 104px;
+            text-align: center;
+        }
+
+        .video_2 {
+            margin-left: 700px;
+            margin-top: -316px;
+        }
+
+        .video_1 {
+            margin-left: 40px;
+        }
+
+        .video_3 {
+            margin-left: -335;
+            margin-top: 20;
         }
     </style>
 </head>
@@ -358,147 +311,91 @@
         </main>
     </header>
     <main class="col-100 menu-urls">
-        <div class="header-2">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="../projetoSiteFuturus/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="../projetoSiteFuturus/index_sobre.html">Sobre
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Projetos
-                            <ul>
-                                <li>
-                                    <a href="">Projetos em andamento;</a>
-                                </li>
-                                <li>
-                                    <a href="">Projetos concluídos;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Palestras
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
-                                        palestras;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
-                                        concluídas;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="">Parceiros</a>
-                    </li>
-                </ul>
-            </nav>
-            <Div class="busca">
-                <input placeholder="digite sua busca:" type="text" />
+        <div class="col-100">
+            <h1>Como ingressar no mercado de trabalho?</h1>
+            <div class="slider-principal">
+                <img src="../projetoSiteFuturus/saiba_sobre_palestrantes.png" />
+                <img src="../projetoSiteFuturus/1_palestrante.png" />
+                <img src="../projetoSiteFuturus/2_palestrante.png" />
+                <img src="../projetoSiteFuturus/3_palestrante.png" />
             </div>
-            <div class="subtopicos">
-                <ul>
-                    <li>
-                        <a href="">Como ingressar no mercado de trabalho -(08,09,10)/07/2020
-                            <ul>
-                                <li>
-                                    <a href="https://www.youtube.com/watch?v=SN0J3v1FHdA">10/07/2020</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/watch?v=VBXbeA-SEm8">09/07/2020</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/watch?v=M-XgK6wisSY">08/07/2020</a>
-                                </li>
-                            </ul>
-                        </a>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/M-XgK6wisSY" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </li>
-                </ul>
-            </div>
-            <div class="subtopicos_1">
-                <ul>
-                    <li>
-                        <a href="">Terceiro setor e negócios sociais - 23/07/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gkhf0GhT52A" frameborder="0"
+            </br>
+            <div class="video_1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/M-XgK6wisSY" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="subtopicos_2">
-                <ul>
-                    <li>
-                        <a href="">Mercado financeiro e análise de investimentos - 30/07/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/v6CDPqqPqvQ" frameborder="0"
+            <div class="video_2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VBXbeA-SEm8" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </div>
-            <div class="subtopicos_3">
-                <ul>
-                    <li>
-                        <a href="">Moda e mercado de trabalho - 06/08/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/v6CDPqqPqvQ" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="subtopicos_4">
-                <ul>
-                    <li>
-                        <a href="">Experiências no exterior - 13/08/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uXQnOZA6R7A" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="subtopicos_5">
-                <ul>
-                    <li>
-                        <a href="">Ciência de dados e empregabilidade - 20/08/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/6APqwqRLzwA" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="subtopicos_6">
-                <ul>
-                    <li>
-                        <a href="">Empreendedorismo - 27/08/2020</a>
-                    </li>
-                </ul>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/YIr7IoQYmvQ" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="video_3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SN0J3v1FHdA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </div>
+        <div class="header-2">
+            <div class="busca">
+                <input placeholder="digite sua busca:" type="text" />
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../projetoSiteFuturus/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../projetoSiteFuturus/index_sobre.html">Sobre
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Projetos
+                        <ul>
+                            <li>
+                                <a href="">Projetos em andamento;</a>
+                            </li>
+                            <li>
+                                <a href="">Projetos concluídos;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Palestras
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
+                                    palestras;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
+                                    concluídas;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Podcast</a>
+                </li>
+                <li>
+                    <a href="">Parceiros</a>
+                </li>
+            </ul>
+        </nav>
+
     </main>
     <div class="rodape">
         <div class="parceiros-2">
@@ -547,8 +444,12 @@
             </ul>
         </div>
     </div>
-    </div>
-    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../projetoSiteFuturus/main.js"></script>
 </body>
+
+
 
 </html>
