@@ -51,18 +51,6 @@
             padding: 20px;
         }
 
-        .header-2 {
-            background-color: #fbe3d4;
-            width: 97.8%;
-            margin: 0 auto;
-            height: 40px;
-            padding: 15px;
-        }
-
-        .menu-urls {
-            height: 80px;
-            border-bottom: 3px solid #ffffff;
-        }
 
         .textoMissao {
             width: 70%;
@@ -144,10 +132,11 @@
 
         .header-2 {
             background-color: #fbe3d4;
-            width: 97.5%;
-            margin-top: 20px;
+            width: 97.8%;
+            margin-top: 0px;
             height: 40px;
             padding: 15px;
+            position: relative;
         }
 
         .menu ul li a {
@@ -157,12 +146,21 @@
             color: black;
         }
 
+        .menu {
+            position: absolute;
+            margin-top: -40;
+            margin-left: 20;
+        }
+
         .menu ul li:hover {
             background-color: #fbe3d4;
         }
 
         .menu ul {
             padding: 0;
+            position: relative;
+            margin-top: 0;
+
         }
 
         .menu ul ul {
@@ -176,14 +174,16 @@
         .menu ul li {
             display: inline-block;
             float: left;
-            width: 120px;
+            width: 170px;
+
         }
+
 
         .busca {
             text-align: center;
             width: 30%;
             float: right;
-            margin-top: -30px;
+
         }
 
         .busca input {
@@ -210,7 +210,6 @@
             background-color: #7f2d2f;
             position: absolute;
             top: 0;
-            left: 500;
             margin-top: 165px;
             border: 5px solid #fbe3d4;
         }
@@ -222,7 +221,6 @@
             background-color: #7f2d2f;
             position: absolute;
             top: 0;
-            left: 500;
             margin-top: 360px;
             border: 5px solid #fbe3d4;
         }
@@ -234,16 +232,10 @@
             background-color: #7f2d2f;
             position: absolute;
             top: 0;
-            left: 500;
             margin-top: 580px;
             border: 5px solid #fbe3d4;
         }
 
-        .menu ul ul li {
-            height: 0px;
-            border: 1px solid #7f2d2f;
-            padding: 30px;
-        }
 
         .rodape {
             width: 100%;
@@ -349,64 +341,64 @@
             </div>
         </div>
         <div class="header-2">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="../projetoSiteFuturus/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="../projetoSiteFuturus/index_sobre.html">Sobre
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Projetos
-                            <ul>
-                                <li>
-                                    <a href="">Projetos em andamento;</a>
-                                </li>
-                                <li>
-                                    <a href="">Projetos concluídos;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Palestras
-                            <ul>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
-                                        palestras;</a>
-                                </li>
-                                <li>
-                                    <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
-                                        concluídas;</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="">Parceiros</a>
-                    </li>
-                </ul>
-            </nav>
             <Div class="busca">
                 <input placeholder="digite sua busca:" type="text" />
             </div>
         </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../projetoSiteFuturus/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../projetoSiteFuturus/index_sobre.html">Sobre
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Missão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Visão;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_sobre.html">Valores;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Projetos
+                        <ul>
+                            <li>
+                                <a href="">Projetos em andamento;</a>
+                            </li>
+                            <li>
+                                <a href="">Projetos concluídos;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Palestras
+                        <ul>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_andamento.html">Próximas
+                                    palestras;</a>
+                            </li>
+                            <li>
+                                <a href="../projetoSiteFuturus/index_palestra_concluida.html">Palestras
+                                    concluídas;</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Podcast</a>
+                </li>
+                <li>
+                    <a href="">Parceiros</a>
+                </li>
+            </ul>
+        </nav>
         </div>
         <div class="textoSobreMissao">
             Promoção de dinamismo na UERJ através do aumento da interligação de alunos de cursos diferentes na criação e
